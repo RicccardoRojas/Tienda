@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAddProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddProducto.Designer.cs">
+      <DependentUpon>FrmAddProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTienda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -51,11 +57,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmAddProducto.resx">
+      <DependentUpon>FrmAddProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmTienda.resx">
       <DependentUpon>FrmTienda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesTienda\EntidadesTienda.csproj">
+      <Project>{97c557db-30db-4382-9cf5-c5f79154ae3a}</Project>
+      <Name>EntidadesTienda</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejadorTienda\ManejadorTienda.csproj">
+      <Project>{a5165771-f66a-4ee3-9304-49c22132759e}</Project>
+      <Name>ManejadorTienda</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
