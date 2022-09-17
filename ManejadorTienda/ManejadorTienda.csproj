@@ -31,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crud">
+      <HintPath>..\..\..\..\..\..\..\source\repos\Crud\bin\Debug\Crud.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +48,16 @@
   <ItemGroup>
     <Compile Include="ManejadorProductos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatosTienda\AccesoDatosTienda.csproj">
+      <Project>{940320d9-c7d7-49e9-b3c4-b7aa599c0297}</Project>
+      <Name>AccesoDatosTienda</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadesTienda\EntidadesTienda.csproj">
+      <Project>{97c557db-30db-4382-9cf5-c5f79154ae3a}</Project>
+      <Name>EntidadesTienda</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
