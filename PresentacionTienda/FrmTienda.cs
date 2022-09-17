@@ -18,6 +18,7 @@ namespace PresentacionTienda
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            productos.IDProducto = -1;
             FrmAddProducto FAP = new FrmAddProducto();
             FAP.ShowDialog();
         }

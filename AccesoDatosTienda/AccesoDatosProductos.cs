@@ -10,12 +10,13 @@ namespace AccesoDatosTienda
 
         public void Borrar(dynamic Entidad)
         {
-            b.Comando(string.Format("call eliminarproducto({0})", Entidad.IDProductos));
+            b.Comando(string.Format("call eliminarproducto({0})", Entidad.IDProducto));
         }
 
         public void Guardar(dynamic Entidad)
         {
-            b.Comando(string.Format("call insertarproducto('{0}','{1}',{2})", Entidad.Nombre, Entidad.Descripcion, Entidad.Precio));
+            b.Comando(string.Format("call insertarproducto('{0}','{1}',{2},{3})", Entidad.Nombre, Entidad.Descripcion, Entidad.Precio,
+                Entidad.IDProducto));
         }
 
         public DataSet Mostrar(string Filtro)

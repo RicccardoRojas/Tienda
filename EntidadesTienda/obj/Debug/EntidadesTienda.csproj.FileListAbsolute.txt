@@ -1,0 +1,6 @@
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\bin\Debug\EntidadesTienda.dll
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\bin\Debug\EntidadesTienda.pdb
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\obj\Debug\EntidadesTienda.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\obj\Debug\EntidadesTienda.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\obj\Debug\EntidadesTienda.dll
+C:\Users\DELL\Documents\TEC\5 Semestre\Admin Base de Datos\C#\Tienda\EntidadesTienda\obj\Debug\EntidadesTienda.pdb
